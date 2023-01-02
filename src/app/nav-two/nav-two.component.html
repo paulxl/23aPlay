@@ -1,0 +1,36 @@
+<body>
+<h1 id="top"><span>Angular Playground</span> Let's Play</h1>
+
+<header>
+<section>
+<a href="" id="logo" target="_blank">two dogs production</a>
+
+<label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+<input type="checkbox" id="toggle-1">
+
+<nav>
+<ul>
+<li><a [routerLink]="['/front-page']" routerLinkActive="active"><i class="icon-home"></i>Front Page</a></li>
+<li><a [routerLink]="['/coding']"><i class="icon-user"></i>Coding</a></li>
+<li><a [routerLink]="['/reads']"><i class="icon-thumbs-up-alt"></i>Reads</a></li>
+<li><a [routerLink]="['/garnets']" routerLinkActive="active"><i class="icon-gear"></i>Garnets</a></li>
+<li><a [routerLink]="['/gallery']"><i class="icon-picture"></i>Gallery</a></li>
+<li><a [routerLink]="['/graph']"><i class="icon-phone"></i>Graph Interest</a></li>
+</ul>
+</nav>
+
+</section>
+</header>
+<router-outlet></router-outlet>
+
+<footer>
+<ul class="social">
+<li><a href="" target="_blank"><i class="icon-twitter"></i>AAA</a></li>
+<li><a href="" target="_blank"><i class="icon-facebook"></i>BBB</a></li>
+<li><a href="" target="_blank"><i class="icon-linkedin"></i>CCC</a></li>
+<li><a href="" target="_blank"><i class="icon-pinterest"></i>DDD</a></li>
+<li><a href="" target="_blank"><i class="icon-google-plus"></i>EEE</a></li>
+<li><a href="" target="_blank"><i class="icon-instagram"></i>FFF</a></li>
+</ul>
+</footer>
+</body>
